@@ -70,6 +70,7 @@ public class CommandMakeServer implements CommandExecutor {
                     return true;
             }
         }
+        commandSender.sendMessage("Use /makeserver solo/teams/ssmos/ssmosteams/boss/test");
         return false;
     }
 
